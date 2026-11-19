@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AssignmentOne</string>
+    <string name="app_name">CampusLife</string>
 
     <!-- Home screen -->
     <string name="banner_title">Welcome to CampusLife - Your Pocket Guide to University of Waikato</string>
@@ -14,4 +14,10 @@
     <string name="btn_events_desc">Events button</string>
     <string name="btn_clubs_desc">Clubs button</string>
     <string name="btn_support_desc">Support button</string>
+
+    <!-- Detail screen placeholders (Part F) -->
+    <string name="detail_image_desc">Category image</string>
+    <string name="placeholder_short_title">Facilities</string>
+    <string name="placeholder_title">This is a title</string>
+    <string name="placeholder_content">This is content</string>
 </resources>

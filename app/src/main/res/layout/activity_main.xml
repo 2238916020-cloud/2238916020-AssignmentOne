@@ -45,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="55"
+        android:background="@color/green"
         android:orientation="vertical">
 
         <!-- First row: Facilities | Events -->
@@ -63,10 +64,11 @@
 
                 <ImageButton
                     android:id="@+id/btn_facilities"
+                    android:onClick="onFacilitiesClick"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="@string/btn_facilities_desc"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_facilities" />
@@ -89,10 +91,11 @@
 
                 <ImageButton
                     android:id="@+id/btn_events"
+                    android:onClick="onEventsClick"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="@string/btn_events_desc"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_events" />
@@ -123,10 +126,11 @@
 
                 <ImageButton
                     android:id="@+id/btn_clubs"
+                    android:onClick="onClubsClick"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="@string/btn_clubs_desc"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_clubs" />
@@ -149,10 +153,11 @@
 
                 <ImageButton
                     android:id="@+id/btn_support"
+                    android:onClick="onSupportClick"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="@string/btn_support_desc"
                     android:scaleType="fitCenter"
                     android:src="@drawable/img_btn_support" />

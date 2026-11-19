@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Button selector: the category ImageButtons are green normally and switch
+    to light green while being pressed, as required by Part C.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/light_green" android:state_pressed="true" />
+    <item android:drawable="@color/green" />
+</selector>
