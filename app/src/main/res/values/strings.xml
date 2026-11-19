@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AssignmentOne</string>
+
+    <!-- Home screen -->
+    <string name="banner_title">Welcome to CampusLife - Your Pocket Guide to University of Waikato</string>
+    <string name="banner_description">CampusLife banner image</string>
+
+    <string name="btn_facilities">Facilities</string>
+    <string name="btn_events">Events</string>
+    <string name="btn_clubs">Clubs</string>
+    <string name="btn_support">Support</string>
+
+    <string name="btn_facilities_desc">Facilities button</string>
+    <string name="btn_events_desc">Events button</string>
+    <string name="btn_clubs_desc">Clubs button</string>
+    <string name="btn_support_desc">Support button</string>
 </resources>
